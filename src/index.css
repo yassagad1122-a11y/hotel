@@ -1,0 +1,23 @@
+
+@import "tailwindcss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.countenr{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+:root{
+    --main-color:#2563EB; 
+    --secaoner--cilor:#FBBF24;          
+ 
+}
+a{
+color: whitesmoke;
+
+    text-decoration: none;
+}

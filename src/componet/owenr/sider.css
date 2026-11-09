@@ -1,0 +1,14 @@
+.fonhid{
+    display: block;
+}
+@media(max-width:600px){
+    .fonhid{
+        display: none;
+    }
+    .link{
+    width: fit-content;
+}
+.all{
+    width: fit-content;
+}
+}

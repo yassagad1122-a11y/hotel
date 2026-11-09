@@ -1,0 +1,9 @@
+.mdhibl{
+    display: none;
+}
+@media (min-width:800px){
+
+    .mdhibl{
+    display: block;
+}
+}

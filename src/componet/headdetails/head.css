@@ -1,0 +1,39 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+.addres{
+font-size: 29px;
+line-height: 33px;
+font-weight: 400;
+margin: 60px 0px 5px 0px;
+
+}
+.details{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #555555a2;
+    max-width: 700px;
+}
+@media (max-width:640px){
+.details{
+    padding-top: 30px;
+   
+}
+.head{
+    align-items: start;
+    text-align: start;
+}
+
+}
+@media (max-width:440px){
+    .addres{
+        font-size: 22px;
+        padding-bottom: 16px;
+    }
+
+}

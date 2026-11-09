@@ -1,0 +1,39 @@
+.gridfeaturid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+    gap: 10px;
+     padding: 40px 0px 40px 0px;
+}
+
+.x{    display: flex;
+    justify-content: center;
+    align-items: end;
+
+   padding: 60px 0px 70px 0px;
+}
+.x button{
+
+                padding: 7px 14px;
+            border-radius: 5px;
+            border: 1px solid #909090a3;
+            color: #abababc2;
+   background: linear-gradient(to left, rgb(255, 255, 255) 50%,  rgb(161, 161, 161))50%;
+   background-size: 200% 100%;    
+   background-position: bottom right;     
+   transition: .5s;
+cursor: pointer;
+}
+
+.x button:hover{
+    color: white;
+background-position:left;
+}
+.animbox{
+     
+    transition: .5s;
+ 
+}
+.animbox:hover{
+  transform: translateY(-7px);
+       border: 2px solid orange;
+}

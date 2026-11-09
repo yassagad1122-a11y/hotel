@@ -1,0 +1,103 @@
+.gridroom {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+  gap: 20px;
+  padding: 15px 0px 30px 0px;
+}
+.fourgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+  gap: 10px;
+}
+.flexform {
+  display: flex;
+}
+.luxury{
+     font-Size: 38px;
+      font-Weight: 300;
+}
+form {
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px #c1c1c1c6;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+.dataform {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+.dataform > div > input {
+  border: 1px solid #c1c1c1d1;
+  padding: 5px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+.dataform > div:not(:first-child) {
+  margin-left: 40px;
+}
+.inicheck{
+   font-size: 13px;
+}
+.btnform {
+  margin-top: 10px;
+  flex: 1;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-color: rgb(0, 94, 255);
+}
+
+.formcheck {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: "start";
+}
+.inpwid {
+  width: 50px;
+}
+@media (max-width: 730px) {
+  .flexform {
+    flex-direction: column;
+  }
+}
+@media (max-width: 530px) {
+  .dataform {
+    flex-direction: column;
+  }
+  .formcheck {
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+  }
+  .formcheck input {
+    width: 100%;
+  }
+  .inpwid {
+    width: 100%;
+  }
+  .dataform > div > input {
+    padding: 1px;
+    margin: 0px 5px;
+    height: 35px;
+  }
+  .dataform > div:not(:first-child) {
+    margin-left: 0px;
+    /* margin: 2px 0px; */
+  }
+}
+@media (max-width: 500px) {
+  .inicheck span{
+    display: none;
+  }
+  .luxury{
+    font-size: 25px;
+  }
+}
